@@ -100,7 +100,6 @@ Loans were segmented based on repayment status to isolate default loss exposure:
 
 ```text
 ├── assets/
-│   ├── README.md               # Guide for adding dashboard images
 │   ├── summary_view.png        # Executive Summary Page screenshot
 │   └── overview_view.png       # Risk & Demographics Overview screenshot
 ├── Bank_Loan_Analysis_Report.pbix  # The complete interactive Power BI workbook
