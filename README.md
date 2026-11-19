@@ -14,7 +14,7 @@ An interactive, enterprise-grade **Power BI Financial Lending & Credit Risk Dash
 ## 📌 Business Problem & Objectives
 
 ### The Business Context
-Consumer lending operations face a constant strategic challenge: **maximizing lending volume while mitigating credit default risk**. Without centralized business intelligence, credit risk committees and lending executives face significant operational blind spots:
+In bank loan portfolio operations, financial institutions face a constant strategic challenge: **maximizing lending volume while mitigating credit default risk**. Without centralized business intelligence, credit risk committees and lending executives face significant operational blind spots:
 1. **Capital Exposure & Loss Visibility**: Inability to quantify how much capital is performing vs. written off in defaults, leading to inaccurate loss provisioning.
 2. **Lending Velocity & Seasonality**: Lack of Month-to-Date (MTD) and Month-over-Month (MoM) monitoring to assess origination growth and cash collection health.
 3. **Credit Risk Segmentation**: Difficulty identifying which borrower profiles (high DTI ratios, employment tenure, loan purpose, and repayment terms) correlate with higher charge-off rates.
@@ -42,7 +42,6 @@ This Power BI reporting system was engineered to deliver actionable, data-driven
 | **Total Loan Applications** | `Total Loan Application` | **38,576** (~38.6K) | 4.3K | **+6.91%** |
 | **Total Capital Funded** | `Total Funded Amount` | **$435.8M** | **$54.0M** | **+13.04%** |
 | **Total Capital Received** | `Total Amount Received` | **$473.1M** | $58.1M | **+15.84%** |
-| **Net Capital Recovery** | *Net Surplus* | **+$37.3M** (+8.6% ROI) | +$4.1M | *Positive Cash Flow* |
 | **Average Interest Rate** | `Average Interest Rate` | **12.05%** | 12.4% | **+3.5%** |
 | **Average Debt-to-Income (DTI)** | `Avg Dti` | **13.33%** | **13.7%** | **+2.7%** |
 
