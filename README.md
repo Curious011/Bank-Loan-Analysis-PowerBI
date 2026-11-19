@@ -2,9 +2,8 @@
 
 [![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-View_Interactive_Report-0078D4?style=for-the-badge&logo=powerbi&logoColor=white)](https://app.powerbi.com/view?r=eyJrIjoiNzRiM2IyODMtZTQ1Mi00MzU3LWEzMzQtZWU4ZGZlNTI2ZTRhIiwidCI6IjUxMzRkZDExLWZlNDEtNGY3My1iODIyLTg0NDljN2Y1MzA4MCJ9)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-Analysis_Services-00758F?style=for-the-badge)
-![Data Modeling](https://img.shields.io/badge/Data_Modeling-Star_Schema-blue?style=for-the-badge)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
+![DAX](https://img.shields.io/badge/DAX-Measures_&_Formulas-00758F?style=for-the-badge)
+![Domain](https://img.shields.io/badge/Domain-Banking_&_Credit_Risk-2ea44f?style=for-the-badge)
 
 An interactive, enterprise-grade **Power BI Financial Lending & Credit Risk Dashboard** designed to evaluate loan portfolio health, monitor capital recovery velocity, and uncover borrower risk drivers across **38,576 loan applications**.
 
@@ -40,12 +39,12 @@ This Power BI reporting system was engineered to deliver actionable, data-driven
 ### 1. Overall Portfolio Scale & Cash Flow
 | Metric | Measure Name | Value | MTD (December) | MoM Growth |
 | :--- | :--- | :---: | :---: | :---: |
-| **Total Loan Applications** | `Total Loan Application` | **38,576** (~38.6K) | 4,314 | **+6.9%** |
-| **Total Capital Funded** | `Total Funded Amount` | **$435.8M** | $43.6M | **+13.0%** |
-| **Total Capital Received** | `Total Amount Received` | **$473.1M** | $58.1M | **+15.8%** |
-| **Net Capital Recovery** | *Net Surplus* | **+$37.3M** (+8.6% ROI) | +$14.5M | *Positive Cash Flow* |
-| **Average Interest Rate** | `Average Interest Rate` | **12.05%** | 12.36% | +3.5% |
-| **Average Debt-to-Income (DTI)** | `Avg Dti` | **13.33%** | 13.67% | -1.2% |
+| **Total Loan Applications** | `Total Loan Application` | **38,576** (~38.6K) | 4.3K | **+6.91%** |
+| **Total Capital Funded** | `Total Funded Amount` | **$435.8M** | **$54.0M** | **+13.04%** |
+| **Total Capital Received** | `Total Amount Received` | **$473.1M** | $58.1M | **+15.84%** |
+| **Net Capital Recovery** | *Net Surplus* | **+$37.3M** (+8.6% ROI) | +$4.1M | *Positive Cash Flow* |
+| **Average Interest Rate** | `Average Interest Rate` | **12.05%** | 12.4% | **+3.5%** |
+| **Average Debt-to-Income (DTI)** | `Avg Dti` | **13.33%** | **13.7%** | **+2.7%** |
 
 ---
 
@@ -114,9 +113,9 @@ Loans were segmented based on repayment status to isolate default loss exposure:
 
 ## 🚀 How to Open and Explore
 
-1. Clone this repository:
+1. Clone this repository (or download as ZIP from the green Code button above):
    ```bash
-   git clone https://github.com/<your-username>/Bank-Loan-Analysis-PowerBI.git
+   git clone https://github.com/Curious011/Bank-Loan-Analysis-PowerBI.git
    ```
 2. Download and install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free).
 3. Open `Bank_Loan_Analysis_Report.pbix`.
