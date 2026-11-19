@@ -1,5 +1,6 @@
 # 📊 Bank Loan & Credit Risk Analytics Dashboard
 
+[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-View_Interactive_Report-0078D4?style=for-the-badge&logo=powerbi&logoColor=white)](PASTE_YOUR_LIVE_LINK_HERE)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-Analysis_Services-00758F?style=for-the-badge)
 ![Data Modeling](https://img.shields.io/badge/Data_Modeling-Star_Schema-blue?style=for-the-badge)
@@ -7,16 +8,22 @@
 
 An interactive, enterprise-grade **Power BI Financial Lending & Credit Risk Dashboard** designed to evaluate loan portfolio health, monitor capital recovery velocity, and uncover borrower risk drivers across **38,576 loan applications**.
 
+> 🔗 **Live Interactive Report**: [Click here to view the live published dashboard](PASTE_YOUR_LIVE_LINK_HERE)
+
 ---
 
-## 📌 Project Overview & Problem Statement
+## 📌 Business Problem & Objectives
 
-Financial institutions disburse hundreds of millions of dollars in consumer loans annually, facing critical business challenges:
-* **Capital Risk**: How much capital is performing vs. written off in defaults?
-* **Lending Velocity**: Are disbursements and collections growing Month-over-Month (MoM)?
-* **Risk Stratification**: Which borrower segments (Debt-to-Income ratios, employment length, loan terms) carry the highest probability of charge-off?
+### The Business Context
+Consumer lending operations face a constant strategic challenge: **maximizing lending volume while mitigating credit default risk**. Without centralized business intelligence, credit risk committees and lending executives face significant operational blind spots:
+1. **Capital Exposure & Loss Visibility**: Inability to quantify how much capital is performing vs. written off in defaults, leading to inaccurate loss provisioning.
+2. **Lending Velocity & Seasonality**: Lack of Month-to-Date (MTD) and Month-over-Month (MoM) monitoring to assess origination growth and cash collection health.
+3. **Credit Risk Segmentation**: Difficulty identifying which borrower profiles (high DTI ratios, employment tenure, loan purpose, and repayment terms) correlate with higher charge-off rates.
 
-This solution provides executive leadership and risk committees with a centralized BI reporting architecture to track **MTD/MoM velocity**, segregate **Good vs. Bad loans**, and dynamically drill down into portfolio demographics.
+### The Analytical Solution
+This Power BI reporting system was engineered to deliver actionable, data-driven answers across two core analytical levels:
+* **Executive Summary Dashboard**: High-level portfolio tracking, real-time MTD/MoM velocity metrics, Good vs. Bad loan segregation, and detailed loan status performance grids (`Fully Paid`, `Current`, `Charged Off`).
+* **Overview & Risk Segmentation Dashboard**: Deep-dive multidimensional analysis across loan purpose, repayment terms (36 vs. 60 months), employment length, home ownership type, state-level geography, and monthly trends, supported by dynamic **Field Parameters** (`Select Measure`).
 
 ---
 
@@ -25,8 +32,6 @@ This solution provides executive leadership and risk committees with a centraliz
 | Summary Page (Executive & Portfolio Health) | Overview Page (Demographics & Risk Segmentation) |
 | :---: | :---: |
 | ![Summary Page](assets/summary_view.png) | ![Overview Page](assets/overview_view.png) |
-
-> *(Note: Replace placeholder screenshots in the `assets/` folder with your full-screen captures).*
 
 ---
 
@@ -45,11 +50,11 @@ This solution provides executive leadership and risk committees with a centraliz
 ---
 
 ### 2. Credit Risk Classification (Good vs. Bad Loans)
-Loans were segmented based on repayment performance to isolate default loss exposure:
+Loans were segmented based on repayment status to isolate default loss exposure:
 * **Good Loans (`Fully Paid` & `Current`)**:
   * **Application Share**: **86.18%** (33,243 loans)
   * **Capital Funded**: **$370.2M**
-  * **Cash Collected**: **$435.8M** (+$65.6M gross profit surplus)
+  * **Cash Collected**: **$435.8M** (+$65.6M gross cash surplus)
 * **Bad Loans (`Charged Off`)**:
   * **Application Share**: **13.82%** (5,333 loans)
   * **Capital Funded**: **$65.5M**
