@@ -1,6 +1,6 @@
 # 📊 Bank Loan & Credit Risk Analytics Dashboard
 
-[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-View_Interactive_Report-0078D4?style=for-the-badge&logo=powerbi&logoColor=white)](PASTE_YOUR_LIVE_LINK_HERE)
+[![Live Dashboard](https://img.shields.io/badge/Live_Dashboard-View_Interactive_Report-0078D4?style=for-the-badge&logo=powerbi&logoColor=white)](https://app.powerbi.com/view?r=eyJrIjoiNzRiM2IyODMtZTQ1Mi00MzU3LWEzMzQtZWU4ZGZlNTI2ZTRhIiwidCI6IjUxMzRkZDExLWZlNDEtNGY3My1iODIyLTg0NDljN2Y1MzA4MCJ9)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-Analysis_Services-00758F?style=for-the-badge)
 ![Data Modeling](https://img.shields.io/badge/Data_Modeling-Star_Schema-blue?style=for-the-badge)
@@ -8,7 +8,7 @@
 
 An interactive, enterprise-grade **Power BI Financial Lending & Credit Risk Dashboard** designed to evaluate loan portfolio health, monitor capital recovery velocity, and uncover borrower risk drivers across **38,576 loan applications**.
 
-> 🔗 **Live Interactive Report**: [Click here to view the live published dashboard](PASTE_YOUR_LIVE_LINK_HERE)
+> 🔗 **Live Interactive Report**: [Click here to view the live published dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzRiM2IyODMtZTQ1Mi00MzU3LWEzMzQtZWU4ZGZlNTI2ZTRhIiwidCI6IjUxMzRkZDExLWZlNDEtNGY3My1iODIyLTg0NDljN2Y1MzA4MCJ9)
 
 ---
 
