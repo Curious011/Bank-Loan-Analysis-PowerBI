@@ -79,9 +79,7 @@ Loans were segmented based on repayment status to isolate default loss exposure:
    * **60-Month Term**: 26.8% of volume (10,339 loans) with a higher average rate (~15.3%) and significantly higher default probability.
 3. **Employment Stability Benchmark**:
    * Borrowers with **10+ years of employment tenure** represented the single largest borrower group (**8,879 loans / 23.0%**), exhibiting the highest repayment reliability.
-4. **Asset Backing & Housing Risk**:
-   * **Renters (47.9%)** and **Mortgage holders (44.6%)** represent **92.5%** of all applicants; outright **Homeowners** represent only **7.4%**, but demonstrate the lowest default rates.
-5. **Year-End Lending Surge**:
+4. **Year-End Lending Surge**:
    * Loan originations grew steadily month-over-month from January (~2.3K applications) and peaked in December (4,314 applications, +13.0% funded MoM).
 
 ---
